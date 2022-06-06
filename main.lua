@@ -3,7 +3,7 @@ function guesser ()
     number = math.random(1,100)
     player = {}
     player.guess = 0
-    --print (number)
+    --print (number) -- FOR DEBUG
     while ( player.guess ~= number ) do
       print("Guess a number between 1 and 100")
       player.answer = io.read()
