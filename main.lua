@@ -23,8 +23,8 @@ function guesser ()
     io.write('Do you want to play?/Wanna play again?','!\n')
     io.write('1 = yes, 0 = no','!\n')
     yesno = io.read()
-    print("your choice was", yesno)
     if yesno == '1' then
+        print("You chose to play!")
       guesser ()
     else
       print("You Exited the game!")
@@ -32,5 +32,4 @@ function guesser ()
     end
   end
   playagain()
-  
   
