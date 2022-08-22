@@ -28,6 +28,7 @@ function guesser ()
       guesser ()
     else
       print("You Exited the game!")
+        return
     end
   end
   playagain()
